@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Winery: Your Order</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.shop.js"></script>
+</head>
+
+<body id="checkout-page">
+
+<div id="site">
+	<div class="topbar"></div>
+			<div class="social_icon">
+				<div  class="container">
+					<div class="icon">
+						<a href="#"><img src="images/twitter.png" width="25" height="25"></a>
+						<a href="#"><img src="images/facebook.png" width="25" height="25"></a>
+						<a href="#"><img src="images/instagram.png" width="25" height="25"></a>
+						<a href="#"><img src="images/whatsapp.png" width="25" height="25"></a>
+						
+					</div>
+					<div class="header_right">
+						<div class="login_register_btn">
+							<a href="login.html">Login  </a>/
+							<a href="signup.html">Register</a>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div> 
+		<header class="header">
+				<img src="images/kbit.png" width="180" height="140" class="logo" />
+				
+        
+
+				 <div class="navbar">
+			  <a href="index.html">Home</a>
+			  <div class="dropdown">
+				<button class="dropbtn">Categories
+				  <i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="#phones">Mobile Phones</a>
+				  <a href="#laptop">Laptops</a>
+				  <a href="#tv">TV's</a>
+				  <a href="#printers">Printers</a>
+				  <a href="#gadgets">Other...</a>
+
+				</div>
+			  </div>
+			  <a href="#repair">Repairs</a>
+			  <a href="#news">Contact Us</a>
+			  
+			</div> 
+			</header>
+	<div id="contentt">
+		<h1>Your Order</h1>
+			<table id="checkout-cart" class="shopping-cart">
+			  <thead>
+				<tr>
+					<th scope="col">Item</th>
+					<th scope="col">Qty</th>
+					<th scope="col">Price</th>
+				</tr>
+			  </thead>
+			  <tbody>
+			  
+			  </tbody>
+			</table>
+		 <div id="pricing">
+			
+			<p id="shipping">
+				<strong>Shipping</strong>: <span id="sshipping"></span>
+			</p>
+			
+			<p id="sub-total">
+				<strong>Total</strong>: <span id="stotal"></span>
+			</p>
+		 </div>
+		 
+		 <div id="user-details">
+		 	<h2>Your Data</h2>
+		 	<div id="user-details-content"></div>
+		 </div>
+		 
+		 
+		 
+		 
+<form id="paypal-form" action="" method="post">
+	<input type="hidden" name="cmd" value="_cart" />
+	<input type="hidden" name="upload" value="1" />
+	<input type="hidden" name="business" value="" />
+        
+	<input type="hidden" name="currency_code" value="" />
+	<input type="submit" id="paypal-btn" class="btn" value="Pay with PayPal" />
+</form>
+		 
+		 
+	</div>
+	
+	
+
+</div>
+<footer class="first">
+			<section class="main">
+
+				<p><b>KBIT SOLUTIONS.COM</b><br />
+				Retailer of laptops, printers, scanners, photocopiers, original mobile 
+				phones such as apple iphone, 
+				samsung galaxy, tecno, 
+				infinix and much more...</p>
+				<p class="top"><img class="location" src="images/location.png"/> East Legon, Barthur street</p>
+				<p class="top"><img class="call" src="images/call.png"/> 0500004501/0500001020 </p>
+				<p class="websitee"><a href="#" class="website">kbitsolutions@gmail.com</a></p>
+			</section>
+			<section class="connect">
+				<h3><center>Connect with Us</center></h3>
+				<ul class="social">
+					<li><a href="http://www.facebook.com/TheGarden"><img src="images/facebook.png"/></a></li>
+					<li><a href="http://www.instagram.com/TheGarden"><img src="images/instagram.png" /></a></li>
+					<li><a href="http://www.twitter.com/The_Garden"><img src="images/twitter.png"/></a></li>
+					<li><a href="thegarden2020@gmail.com"><img src="images/whatsapp.png" /></a></li>
+				</ul>
+			
+			</section>
+			<section class="information">
+				<h3>Information</h3>
+				<ul class="info">
+					<li><a href="#"class="links">About Us</a></li>
+					<li><a href="#"class="links">Delivery Information</a></li>
+					<li><a href="#"class="links">Privacy Policy</a></li>
+					<li><a href="#"class="links">Terms & Conditions</a></li>
+					<li><a href="#"class="links">Brands</a></li>
+					<li><a href="#"class="links">Repairs</a></li>
+					
+				
+				</ul>
+			
+			</section>
+			<section class="last">
+				<h3>Popular Tags</h3>
+				<nav class="tags">
+					<ul class="footer_tag">
+						<li><a href="#">Camera</a></li>
+						<li><a href="#">mobile</a></li>
+						<li><a href="#">Drones</a></li>
+						<li><a href="#">Tvs</a></li>
+						<li><a href="#">Laptops</a></li>
+						<li><a href="#">Cctv</a></li>
+						<li><a href="#">Printers</a></li>
+						<li><a href="#">Photocopier</a></li>
+						<li><a href="#">PS4</a></li>
+						<li><a href="#">HeadPhones</a></li>
+					</ul>
+				
+				</nav>
+			
+			</section>
+				
+		
+		</footer>
+<footer id="site-infoo">
+		Copyright &copy; KBIT Solutions
+	</footer>
+
+</body>
+</html>	

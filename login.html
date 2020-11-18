@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+	<head>
+		<title>restaurant UI</title>
+		<style type="text/css">
+			*{
+				margin:0;
+				padding:0;
+				border:0;
+			}
+			.header{
+				height:100vh;
+				background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pic2.jpg);
+				background-size:cover;
+				background-position:center;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				font-family:sans-serif;
+				
+				}
+				
+			
+			
+			.search-field{width:300px;
+				margin-top:-35px;
+				height:30px;
+				padding:10px;
+				border:none;
+				border-radius:25px;
+				outline:none;
+			
+				
+			}
+			.location{width:300px;
+				
+				height:30px;
+				padding:10px;
+				border:none;
+				border-radius:25px;
+				outline:none;
+				margin-top:20px;
+			
+				
+			}
+			
+			.search-btn{
+				width:150px;
+				height:50px;
+				background:#ffeb3b;
+				border:none;
+				color:#000;
+				border-radius:20px;
+				margin-top:20px;
+				font-size: 14px;
+				margin-bottom:30px;
+				margin-left:40px;
+				
+				
+			}
+			
+			.search-btn:hover {
+				background: #ffc107;
+				cursor:pointer;
+			}
+			
+			.form-box {
+				background:#efeff0;
+				padding:20px;
+				color:#000000;
+				margin-top:30px;
+				height:500px;
+				
+			}
+			
+			
+			#forgot:active{ color:blue;
+				cursor:pointer;
+				
+			}
+			#forgot:hover{color:red;
+				cursor:pointer;}
+			#signup{text-decoration:none;
+				float:right;
+				
+			}
+			#signup:active{color:blue;
+				cursor:pointer;
+				
+			}
+			#signup:hover{color:red;
+				cursor:pointer;}
+			
+			img{margin-top:-35px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			
+			<form method="get" action="#">
+				
+				<div class="form-box">
+					
+					<center><img src="images/kbit.png" width="350px" height="250px"/></center>
+					Username: <input type="text" class="search-field business" placeholder="username"/><br />
+					Password: <input type="password" class="location" placeholder="password"/><br />
+					<center><button class="search-btn" type="button">logIn</button></center>
+					<a href="#" id="forgot">forgot your password?</a>
+					<a href="signup.html" id="signup">SignUp</a>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
